@@ -6,7 +6,7 @@
 // Purpose: This is an assignment due 2/4/22 that will enable a user to order items from a vending machine.
 
 #include <iostream>
-#include <iomanip> // Used to use the setprecision() tool, I couldn't find any better way to do it.
+#include <iomanip> // Used to use the setprecision() tool.
 
 using namespace std;
 
