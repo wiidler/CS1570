@@ -1,4 +1,6 @@
-// Programmer: Will Weidler 
+// Programmer: Will Weidler
+// Student ID: wawq97
+// Section: 101 
 // Date: 1/30/22
 // File: VendingMachine.cpp
 // Purpose: This is an assignment due 2/4/22 that will enable a user to order items from a vending machine.
