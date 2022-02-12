@@ -1,4 +1,4 @@
-Score: 88
+Score: 87
 
 Notes:
 - Did not compile, next time it will be -50. (-10)
@@ -7,6 +7,10 @@ Notes:
 int main() {
   return 0;
 }
+```
+- Make the prices constant! (-1)
+```cpp
+const float apple = 1.50;
 ```
 - Incorrect output, you got a negative balance of $-1.25 on the second example output. (-1)
   - You also have a lot of newlines in between all of your text, generally you don't want that.
