@@ -15,7 +15,7 @@ int main() {
   - Code breaks if you put a letter in when choosing a product.
 
 Tips:
--To increment or decrement a variable, you can just do:
+- To increment or decrement a variable, you can just do:
 ```cpp
 variable++;
 variable--;
