@@ -1,6 +1,6 @@
 // Programmer: Will Weidler
 // Student ID: wawq97
-// Section: 101 
+// Section: 101
 // Date: 1/30/22
 // File: VendingMachine.cpp
 // Purpose: This is an assignment due 2/4/22 that will enable a user to order items from a vending machine.
@@ -10,7 +10,7 @@
 
 using namespace std;
 
-main() {
+int main() {
     // Delcaring and assigning items for sale.
     float schmapple = 1.50; // User input 1
     float lightGrape = 1.00; // User input 2
@@ -25,11 +25,11 @@ main() {
     cin >> userMoney;
 
     // Delcaring variables to determine number of times an item is purchased
-    int schmappleBuy = 0; 
-    int lightGrapeBuy = 0; 
-    int scentPizzaBuy = 0; 
-    int heavyGrapeBuy = 0; 
-    int bananaBuy = 0; 
+    int schmappleBuy = 0;
+    int lightGrapeBuy = 0;
+    int scentPizzaBuy = 0;
+    int heavyGrapeBuy = 0;
+    int bananaBuy = 0;
 
     int truthValue = 1;
     // Main vending machine program going through inputs 1-5 and stopping when user inputs "n"
@@ -48,7 +48,7 @@ main() {
             schmappleBuy = schmappleBuy + 1; // Added to amount purchased variable
 
             cout << "Purchased: Schmapple" << endl;
-            
+
         }
         else if (userChoice == 2) {
 
@@ -57,7 +57,7 @@ main() {
             lightGrapeBuy = lightGrapeBuy + 1; // Added to amount purchased variable
 
             cout << "Purchased: Lightly Used Grape" << endl;
-            
+
 
         }
         else if (userChoice == 3) {
@@ -67,7 +67,7 @@ main() {
             scentPizzaBuy = scentPizzaBuy + 1; // Added to amount purchased variable
 
             cout << "Purchased: Scent of a Pizza" << endl;
-            
+
 
         }
         else if (userChoice == 4) {
@@ -77,7 +77,7 @@ main() {
             heavyGrapeBuy = heavyGrapeBuy + 1; // Added to amount purchased variable
 
             cout << "Purchased: Heavily Used Grape" << endl;
-            
+
 
         }
         else if (userChoice == 5) {
@@ -87,13 +87,13 @@ main() {
             bananaBuy = bananaBuy + 1; // Added to amount purchased variable
 
             cout << "Purchased: Banana?" << endl;
-            
+
 
         }
-        
+
         string proceed; // Declaring string to indicate whether user continues to purchase items, asssinged in next lines.
 
-        cout << endl; 
+        cout << endl;
         cout << "Keep purchasing? (y/n)" << endl;
 
         cin >> proceed;
